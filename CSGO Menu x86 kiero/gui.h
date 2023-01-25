@@ -43,9 +43,8 @@ namespace gui
 
 #pragma region ESP
 		inline bool espON = false;
-		static inline float friendlyColor[] = { 0, 1.f, 0, 1.f };
+		static inline float friendlyColor[] = { 0, 0, 1.f, 1.f };
 		static inline float enemyColor[] = { 1.f, 0, 0, 1.f };
-		static inline float defusingColor[] = { 1.f, 1.f, 1.f, 1.f };
 
 
 		inline bool drawTracers = false;
